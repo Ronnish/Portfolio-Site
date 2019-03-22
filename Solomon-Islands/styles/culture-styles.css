@@ -1,0 +1,335 @@
+@charset "utf-8";
+
+body {
+	font-family: 'Concert One', cursive;
+	background-image: url('../images/Paradise.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+header,
+main,
+footer {
+	display: block;
+	padding: 0 30px;
+}
+
+.wrapper {
+	width: 1000px;
+	margin: 0 auto;
+	background-color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+	opacity: 0.8;
+}
+
+.wrapper h1 {
+	text-align: center;
+	color: rgb(49, 54, 52);
+}
+.wrapper h2 {
+	text-align: center;
+	color: rgb(49, 54, 52);
+}
+
+.wrapper h3 {
+	text-align: center;
+	color: rgb(49, 54, 52);
+}
+.wrapper h4 {
+	text-align: left;
+	color: rgb(49, 54, 52);
+}
+.wrapper h5 {
+	font-size: 17px;
+}
+
+.wrapper p {
+	text-align: center;
+	list-style-type: circle;
+}
+
+nav {
+	background-color: #fff;
+}
+
+nav ul {
+	margin-bottom: 0;
+	padding-bottom: 0;
+	list-style: none;
+	display: flex;
+	background-color: white;
+}
+
+nav li {
+	flex: 1;
+	text-align: center;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+
+nav a {
+	color: rgb(41, 172, 172);
+	text-decoration: none;
+	text-align: center;
+	line-height: 20px;
+	margin-bottom: 15px;
+	text-align: center;
+	display: block;
+}
+
+nav a:focus,
+nav a:hover,
+nav a:active {
+text-decoration: underline;	
+}
+
+nav a#pull {
+	display: none;
+}
+
+.teasers {
+	padding: 40px 0;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px dotted #ccc;
+}
+
+.teasers article {
+	width: 32%;
+	padding: 0 20px;
+}
+
+.teasers h1 {
+	font-size: 1.7em;
+	text-align: center;
+	margin: 0.7em 0;
+}
+
+.teasers p {
+	margin-top: 0;
+}
+
+.teasers figure {
+	margin: 0;
+}
+
+.teasers img {
+	display: block;
+}
+
+main {
+	display: block;
+}
+
+main article {
+	display: block;
+	background-color: #0cf;
+	padding: 20px;
+	border: 1px solid rgb(255, 255, 255);
+	margin-bottom: 20px;
+}
+
+article aside {
+	float: right;
+	background-color: white;
+	border: 1px dotted #333333;
+	padding: 5px 15px;
+	margin-left: 20px;
+	width: 150px;
+}
+
+article aside ul {
+	padding: 0;
+	list-style-position: inside;
+}
+
+article figure {
+	margin: 0 20px 10px 0;
+	padding: 9px;
+	background-color: white;
+	border: 1px solid #666;
+	float: left;
+}
+
+article time {
+	font-style: italic;
+}
+
+figure img {
+	display: block;
+	margin: 0 auto;
+}
+
+figcaption {
+	text-align: center;
+}
+
+footer {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: rgb(255, 255, 255);
+	color: #fff;
+}
+
+footer p {
+	margin-left: 10px;
+}
+
+.social-icons {
+	list-style-type: none;
+	margin: 0 auto 20px;
+	padding-block-start: 95px;
+	width: auto;
+	height: 30px;
+}
+
+.tab {
+	margin-right: 10px;
+	border-radius: 0 0 25px 25px;
+	float: left;
+}
+
+.circle {
+	padding: auto;
+	width: 15px;
+	font-size: 20px;
+	text-align: center;
+	background: rgb(255, 255, 255);
+	border-radius: 100%;
+	border: solid 1px;
+}
+
+.fa-facebook {
+	color: hsl(221, 44%, 41%);
+	border-color: hsl(221, 44%, 41%);
+}
+
+.fa-facebook:hover {
+	background-color: hsl(221, 44%, 41%);
+}
+
+.fa-google-plus {
+	color: hsl(7, 71%, 55%);
+	border-color: hsl(7, 71%, 55%);
+}
+
+.fa-google-plus:hover {
+	background-color: hsl(7, 71%, 55%);
+}
+
+.fa-linkedin {
+	color: hsl(199, 85%, 36%);
+	border-color: hsl(199, 85%, 36%);
+}
+
+.fa-linkedin:hover {
+	background-color: hsl(199, 85%, 36%);
+}
+
+.fa-facebook:hover,
+.fa-google-plus:hover,
+.fa-linkedin:hover {
+	color: hsl(0, 0%, 100%);
+}
+
+.screen-reader {
+	position: absolute;
+	left: -9999px;
+	top: -9999px;
+}
+
+.shadow .tab {
+	background: none;
+}
+
+.shadow .circle {
+	box-shadow: 1px 1px 3px hsla(0, 0%, 0%, 0.4);
+}
+
+.shadow .fa-facebook,
+.shadow .fa-google-plus,
+.shadow .fa-linkedin {
+	border-color: hsl(0, 0%, 100%);
+	border: none;
+	padding: 15px;
+}
+
+.credits {
+	font-size: 80%;
+	padding-left: 650px;
+	color: rgb(0, 0, 0);
+}
+
+.letter img {
+	width: 500px;
+	margin-left: 250px;
+	margin-top: 60px; 
+}
+
+@media only screen and (max-width: 660px) {
+	nav {
+	  border-bottom: 0;
+	  height: auto;
+	}
+  
+	nav ul {
+	  display: none;
+	  height: auto;
+	}
+	nav a#pull {
+	  display: block;
+	  background-color: #ffffff;
+	  width: 100%;
+	  position: relative;
+	}
+	nav a#pull:after {
+	  content: "";
+	  width: 30px;
+	  height: 30px;
+	  display: inline-block;
+	  position: absolute;
+	  right: 15px;
+	  top: 10px;
+	}
+}
+
+	menu,
+ ol,
+ ul {
+     margin: 1em 0;
+ }
+ 
+ dd {
+     margin: 0 0 0 40px;
+ }
+ 
+ /*
+  * Addresses paddings set differently in IE6/7.
+  */
+ 
+ menu,
+ ol,
+ ul {
+     padding: 0 0 0 40px;
+ }
+ 
+ /*
+  * Corrects list images handled incorrectly in IE7.
+  */
+ 
+ nav ul,
+ nav ol {
+     list-style: none;
+     list-style-image: none;
+ }
+ 
+
+

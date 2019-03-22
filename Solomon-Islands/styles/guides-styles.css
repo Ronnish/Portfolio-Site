@@ -1,0 +1,302 @@
+@charset "utf-8";
+
+html {
+	box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+body {
+	margin: 0;
+	font-family: 'Concert One', cursive;
+	background-color: ffff;
+	min-height: 100vh;
+}
+
+.wrapper {
+	width: 95%;
+	margin: auto;
+	background-color: ffff;
+}
+
+.wrapper h1 {
+	margin-top: 0;
+	padding-left: 30%;
+	color: rgb(0, 2, 1);
+}
+
+.box p {
+	background-color: rgb(0, 0, 0);
+	color: rgb(21, 212, 203);
+	width: 500px;
+	margin: auto;
+	padding: 20px 20px;
+}
+
+nav {
+	background-color: ffff;
+	height: 52px;
+}
+
+nav ul {
+	margin: 0;
+	margin-top: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+}
+
+nav li {
+	flex: 1;
+	text-align: center;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+
+
+nav a {
+	color: rgb(41, 172, 172);
+	text-decoration: none;
+	text-align: center;
+	line-height: 52px;
+	text-align: center;
+	display: block;
+}
+
+nav a:focus,
+nav a:hover,
+nav a:active {
+text-decoration: underline;
+}
+
+nav a#pull {
+	display: none;
+  }
+
+.banner img {
+	display: block;
+}
+.page-wrap {
+	width: 1000px;
+	margin: 0 auto;
+	padding: 0 30px;
+}
+
+.page-wrap h1 {
+	text-align: center;
+	color: rgb(0, 0, 0);
+}
+
+.hero {
+	width: 80%;
+	margin: 0 auto;
+	padding-bottom: 20px;
+	border-bottom: 1px dotted #ccc;
+}
+
+.hero h1 {
+	text-align: center;
+	font-size: 2.5em;
+	margin-bottom: 0.4em;
+}
+
+.teasers {
+	padding: 40px 0;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px dotted #ccc;
+}
+
+.teasers article {
+	width: 32%;
+	padding: 0 20px;
+}
+
+.teasers h1 {
+	font-size: 1.7em;
+	text-align: center;
+	margin: 0.7em 0;
+}
+
+.teasers p {
+	margin-top: 0;
+}
+
+.teasers figure {
+	margin: 0;
+}
+
+.teasers img {
+	display: block;
+}
+
+footer {
+	padding: 40px 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.credits {
+	font-size: 80%;
+	padding-left: 400px;
+}
+
+.social-icons {
+	list-style-type: none;
+	margin: 0 auto 20px;
+	padding-block-start: 95px;
+	width: auto;
+	height: 100px;
+}
+
+.tab {
+	margin-right: 10px;
+	border-radius: 0 0 25px 25px;
+	float: left;
+}
+
+.circle {
+	padding: auto;
+	width: 45px;
+	font-size: 20px;
+	text-align: center;
+	background: rgb(255, 255, 255);
+	border-radius: 100%;
+	border: solid 1px;
+}
+
+.fa-facebook {
+	color: hsl(221, 44%, 41%);
+	border-color: hsl(221, 44%, 41%);
+}
+
+.fa-facebook:hover {
+	background-color: hsl(221, 44%, 41%);
+}
+
+.fa-google-plus {
+	color: hsl(7, 71%, 55%);
+	border-color: hsl(7, 71%, 55%);
+}
+
+.fa-google-plus:hover {
+	background-color: hsl(7, 71%, 55%);
+}
+
+.fa-linkedin {
+	color: hsl(199, 85%, 36%);
+	border-color: hsl(199, 85%, 36%);
+}
+
+.fa-linkedin:hover {
+	background-color: hsl(199, 85%, 36%);
+}
+
+.fa-facebook:hover,
+.fa-google-plus:hover,
+.fa-linkedin:hover {
+	color: hsl(0, 0%, 100%);
+}
+
+.screen-reader {
+	position: absolute;
+	left: -9999px;
+	top: -9999px;
+}
+
+.shadow .tab {
+	background: none;
+}
+
+.shadow .circle {
+	box-shadow: 1px 1px 3px hsla(0, 0%, 0%, 0.4);
+}
+
+.shadow .fa-facebook,
+.shadow .fa-google-plus,
+.shadow .fa-linkedin {
+	border-color: hsl(0, 0%, 100%);
+	border: none;
+	padding: 15px;
+}
+
+.box {
+	text-align: center;
+}
+
+iframe {
+	width: 700px;
+	height: 500px;
+	left: 120px;
+	margin-top: 60px;
+	position: relative;
+}
+
+@media only screen and (max-width: 660px) {
+	nav {
+	  border-bottom: 0;
+	  height: auto;
+	}
+  
+	nav ul {
+	  display: none;
+	  height: auto;
+	}
+	nav a#pull {
+	  display: block;
+	  background-color: #ffffff;
+	  width: 100%;
+	  position: relative;
+	}
+	nav a#pull:after {
+	  content: "";
+	  width: 30px;
+	  height: 30px;
+	  display: inline-block;
+	  position: absolute;
+	  right: 15px;
+	  top: 10px;
+	}
+}
+
+	menu,
+ ol,
+ ul {
+     margin: 1em 0;
+ }
+ 
+ dd {
+     margin: 0 0 0 40px;
+ }
+ 
+ /*
+  * Addresses paddings set differently in IE6/7.
+  */
+ 
+ menu,
+ ol,
+ ul {
+     padding: 0 0 0 40px;
+ }
+ 
+ /*
+  * Corrects list images handled incorrectly in IE7.
+  */
+ 
+ nav ul,
+ nav ol {
+     list-style: none;
+     list-style-image: none;
+ }
+ 
+
