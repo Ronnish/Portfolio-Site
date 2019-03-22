@@ -1,0 +1,45 @@
+Body {
+	background-image: url(../images/start-background.gif);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center; 
+	
+	
+			
+}
+
+h1 {
+	margin-left: 250px;
+	margin-bottom: 150px;
+	font-size: 80px;
+	color: #fcfc7d	
+}
+
+
+.myButton {
+	background-color:#919ca7;
+	-moz-border-radius:42px;
+	-webkit-border-radius:42px;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffff00;
+	font-family:Arial;
+	font-size:35px;
+	padding:32px 57px;
+	margin-top:550px;
+	margin-left: 47%;	
+	opacity: 0.8;
+	text-decoration:none;
+}
+.myButton:hover {
+	background-color:#78b825;
+	
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+        
+    

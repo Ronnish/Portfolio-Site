@@ -1,0 +1,53 @@
+Body {
+	background-image: url(../images/snake-background.jpg);
+	background-size: cover;
+			
+}
+
+h1 {
+	text-align: center;
+	font-size: 80px;	
+}
+
+
+canvas {
+    display: block;
+    position: absolute;
+    border: 1px solid rgb(0, 0, 0);
+    opacity: 0.7;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+	left: 0;
+	width: 600px;
+	
+}
+
+
+    .myButton {
+		background-color:#e0e0dd;
+		-moz-border-radius:42px;
+		-webkit-border-radius:42px;
+		border-radius:42px;
+		display:inline-block;
+		cursor:pointer;
+		color:#000000;
+		font-family:Arial;
+		font-size:28px;
+		padding:23px 30px;
+		text-decoration:none;
+		margin-top:750px;
+		margin-left: 47%;
+	    opacity: 0.7;
+	}
+	.myButton:hover {
+		background-color:#ffffff;
+		
+
+	}
+	.myButton:active {
+		position:relative;
+		top:1px;
+	}
+	
