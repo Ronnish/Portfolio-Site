@@ -1,0 +1,489 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CreativePress\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-15 11:59+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: comment/comment.php:23 comment/ping.php:21
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: includes/general.php:75
+msgid "1 Column"
+msgstr ""
+
+#: includes/general.php:76
+msgid "1 Column: Narrow"
+msgstr ""
+
+#: includes/customize.php:414
+msgid "1 Footer Widget Area"
+msgstr ""
+
+#: includes/general.php:77
+msgid "2 Columns: Content / Sidebar"
+msgstr ""
+
+#: includes/general.php:78
+msgid "2 Columns: Sidebar / Content"
+msgstr ""
+
+#: includes/customize.php:415
+msgid "2 Footer Widget Area"
+msgstr ""
+
+#: includes/customize.php:416
+msgid "3 Footer Widget Area"
+msgstr ""
+
+#: includes/customize.php:417
+msgid "4 Footer Widget Area"
+msgstr ""
+
+#: content/error-404.php:18
+msgid "404"
+msgstr ""
+
+#: includes/customize.php:178
+msgid "Activate Frontpage Besider Slider Section"
+msgstr ""
+
+#: includes/customize.php:66
+msgid "Activate Frontpage Slider"
+msgstr ""
+
+#: content/error.php:23
+msgid "Apologies, but no entries were found."
+msgstr ""
+
+#: content/singular/attachment-audio.php:42
+msgid "Audio Info"
+msgstr ""
+
+#: includes/customize.php:356
+msgid "Boxed Layout"
+msgstr ""
+
+#: includes/customize.php:273
+msgid "Category Color Options"
+msgstr ""
+
+#: includes/customize.php:282
+msgid "Category Color Settings"
+msgstr ""
+
+#: includes/customize.php:275
+msgid "Change the color of each category items as you want."
+msgstr ""
+
+#: includes/customize.php:352
+msgid "Choose the layout for your site."
+msgstr ""
+
+#: includes/customize.php:410
+msgid "Choose the number of widget area you want in footer"
+msgstr ""
+
+#: includes/customize.php:383
+msgid "Choose the primary color for your site."
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Clean Magazine Theme with dynamic color. Create amazing magazine or blog "
+"site using widgets and various options. Get Free Support at http://nextwp.com"
+msgstr ""
+
+#: includes/template.php:153
+msgid "Comment (1)"
+msgstr ""
+
+#: includes/template.php:152
+msgid "Comments (%)"
+msgstr ""
+
+#. The two %s are placeholders for HTML. The order can't be changed.
+#: comment/error.php:17
+#, php-format
+msgid "Comments are closed, but %1$strackbacks%2$s and pingbacks are open."
+msgstr ""
+
+#: comment/error.php:28
+msgid "Comments are closed."
+msgstr ""
+
+#: comment/navigation.php:15
+msgid "Comments Navigation"
+msgstr ""
+
+#: includes/customize.php:43
+msgid "Configure the front page sections."
+msgstr ""
+
+#. 1 is current year, 2 is site name/link, 3 is WordPress name/link.
+#: footer.php:60
+#, php-format
+msgid "Copyright &#169; %1$s %2$s. Powered by %3$s."
+msgstr ""
+
+#: includes/widgets.php:486
+msgid "CP: 2 Columns Post Widget"
+msgstr ""
+
+#: includes/widgets.php:284
+msgid "CP: Post Grid Widget"
+msgstr ""
+
+#: includes/widgets.php:86
+msgid "CP: Post List Widget"
+msgstr ""
+
+#: includes/widgets.php:690
+msgid "CP: Post Slider Widget"
+msgstr ""
+
+#. Name of the theme
+msgid "CreativePress"
+msgstr ""
+
+#: sidebar/header-right.php:29
+msgid "Customize Now"
+msgstr ""
+
+#: includes/customize.php:326
+msgid "Design Options"
+msgstr ""
+
+#. %s is the sidebar name. This is the sidebar title shown to screen readers.
+#: sidebar/frontpage.php:33 sidebar/primary.php:34 sidebar/secondary.php:34
+msgid "Example Widget"
+msgstr ""
+
+#: includes/customize.php:393
+msgid "Footer Widgets"
+msgstr ""
+
+#: includes/customize.php:162
+msgid "Frontpage Beside Slider Section"
+msgstr ""
+
+#: includes/customize.php:50
+msgid "Frontpage Slider Section"
+msgstr ""
+
+#: content/singular/attachment-image.php:69
+msgid "Gallery"
+msgstr ""
+
+#: includes/customize.php:41
+msgid "Homepage Settings"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://nextwp.com/"
+msgstr ""
+
+#. URI of the theme
+msgid "http://nextwp.com/themes/creativepress"
+msgstr ""
+
+#: content/singular/attachment-image.php:58
+msgid "Image Info"
+msgstr ""
+
+#: includes/customize.php:87
+msgid "Latest Posts"
+msgstr ""
+
+#: includes/template.php:154
+msgid "Leave a Comment"
+msgstr ""
+
+#. Name of the template
+msgid "Magazine"
+msgstr ""
+
+#: menu/primary.php:15
+msgid "Menu"
+msgstr ""
+
+#: functions.php:47
+msgctxt "nav menu location"
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:44
+msgctxt "nav menu location"
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:45
+msgctxt "nav menu location"
+msgid "Secondary Menu"
+msgstr ""
+
+#: functions.php:46
+msgctxt "nav menu location"
+msgid "Social Menu"
+msgstr ""
+
+#: comment/navigation.php:21
+msgid "Next Comment Page"
+msgstr ""
+
+#. Author of the theme
+msgid "NextWP"
+msgstr ""
+
+#: includes/widgets.php:256 includes/widgets.php:458
+msgid "No Content"
+msgstr ""
+
+#: content/error.php:19
+msgid "Nothing found"
+msgstr ""
+
+#: includes/widgets.php:239 includes/widgets.php:441 includes/widgets.php:650
+#: includes/widgets.php:821
+msgid "Number of posts to show:"
+msgstr ""
+
+#: includes/customize.php:151 includes/customize.php:262
+msgid "Number of Slides"
+msgstr ""
+
+#: content/error-404.php:24
+msgid "Oops!"
+msgstr ""
+
+#: content/archive/link.php:23 content/archive/quote.php:24
+#: content/archive/status.php:36
+msgid "Permalink"
+msgstr ""
+
+#: includes/widgets.php:253 includes/widgets.php:455
+msgid "Post Content:"
+msgstr ""
+
+#: includes/widgets.php:242 includes/widgets.php:444 includes/widgets.php:653
+#: includes/widgets.php:824
+msgid "Post Source:"
+msgstr ""
+
+#: comment/navigation.php:20
+msgid "Previous Comment Page"
+msgstr ""
+
+#: includes/customize.php:365
+msgid "Primary Color"
+msgstr ""
+
+#: content/archive/content.php:52
+msgid "Read More"
+msgstr ""
+
+#. %s is the nav menu name. This is the nav menu title shown to screen readers.
+#: menu/primary.php:43
+msgid "Ready to add your primary menu? Let's get started!"
+msgstr ""
+
+#: searchform.php:12
+msgid "Search"
+msgstr ""
+
+#: includes/class-customizer-control-category-dropdown.php:12
+#: includes/class-customizer-control-tag-dropdown.php:12
+msgid "Select"
+msgstr ""
+
+#: includes/customize.php:109 includes/customize.php:220
+msgid "Select Category"
+msgstr ""
+
+#: includes/widgets.php:247 includes/widgets.php:449 includes/widgets.php:658
+#: includes/widgets.php:829
+msgid "Select category"
+msgstr ""
+
+#: includes/customize.php:131 includes/customize.php:242
+msgid "Select Tag"
+msgstr ""
+
+#: includes/widgets.php:250 includes/widgets.php:452 includes/widgets.php:661
+#: includes/widgets.php:832
+msgid "Select tag"
+msgstr ""
+
+#: includes/widgets.php:254 includes/widgets.php:456
+msgid "Show Excerpt"
+msgstr ""
+
+#: includes/widgets.php:255 includes/widgets.php:457
+msgid "Show Full Content"
+msgstr ""
+
+#: includes/widgets.php:243 includes/widgets.php:445 includes/widgets.php:654
+#: includes/widgets.php:825
+msgid "Show latest Posts"
+msgstr ""
+
+#: includes/widgets.php:244 includes/widgets.php:446 includes/widgets.php:655
+#: includes/widgets.php:826
+msgid "Show posts from a category"
+msgstr ""
+
+#: includes/widgets.php:245 includes/widgets.php:447 includes/widgets.php:656
+#: includes/widgets.php:827
+msgid "Show posts from a tag"
+msgstr ""
+
+#: includes/widgets.php:50
+msgctxt "sidebar"
+msgid "Footer Sidebar"
+msgstr ""
+
+#: includes/widgets.php:39
+msgctxt "sidebar"
+msgid "Front Page Sidebar"
+msgstr ""
+
+#: includes/widgets.php:31
+msgctxt "sidebar"
+msgid "Header Right Sidebar"
+msgstr ""
+
+#: includes/widgets.php:23
+msgctxt "sidebar"
+msgid "Primary Sidebar"
+msgstr ""
+
+#: content/singular/attachment-image.php:33
+#, php-format
+msgid "Sizes: %s"
+msgstr ""
+
+#: header.php:29
+msgid "Skip to content (Press enter)"
+msgstr ""
+
+#: includes/customize.php:84 includes/customize.php:196
+msgid "Slider Posts Source"
+msgstr ""
+
+#: includes/customize.php:88 includes/customize.php:199
+msgid "Specific Category"
+msgstr ""
+
+#: includes/customize.php:89 includes/customize.php:200
+msgid "Specific Tag"
+msgstr ""
+
+#: includes/general.php:60
+msgid "Sticky"
+msgstr ""
+
+#: content/error-404.php:24
+msgid "That page can&rsquo;t be found."
+msgstr ""
+
+#: includes/widgets.php:51
+#, php-format
+msgid "The Front Page sidebar %d. It is displayed on front page of the site."
+msgstr ""
+
+#: includes/widgets.php:40
+msgid "The Front Page sidebar. It is displayed on front page of the site."
+msgstr ""
+
+#: includes/widgets.php:32
+msgid ""
+"The Header sidebar. It is displayed on right side of the header beside the "
+"logo/site-title."
+msgstr ""
+
+#: includes/widgets.php:24
+msgid ""
+"The main sidebar. It is displayed on either the left or right side of the "
+"page based on the chosen layout."
+msgstr ""
+
+#: content/archive/gallery.php:44
+#, php-format
+msgid "This gallery contains %s item."
+msgid_plural "This gallery contains %s items."
+msgstr[0] ""
+msgstr[1] ""
+
+#: sidebar/header-right.php:24
+msgid "This is a widget area! It's perfect for a custom menu."
+msgstr ""
+
+#. The %s are placeholders for HTML, so the order can't be changed.
+#: sidebar/frontpage.php:35
+#, php-format
+msgid ""
+"This is an example widget to show how the Frontpage sidebar looks by default."
+" You can add custom widgets from the %1$swidgets screen%2$s in the admin."
+msgstr ""
+
+#. The %s are placeholders for HTML, so the order can't be changed.
+#: sidebar/primary.php:36
+#, php-format
+msgid ""
+"This is an example widget to show how the Primary sidebar looks by default. "
+"You can add custom widgets from the %1$swidgets screen%2$s in the admin."
+msgstr ""
+
+#. The %s are placeholders for HTML, so the order can't be changed.
+#: sidebar/secondary.php:36
+#, php-format
+msgid ""
+"This is an example widget to show how the secondary sidebar looks by default."
+" You can add custom widgets from the %1$swidgets screen%2$s in the admin."
+msgstr ""
+
+#: includes/widgets.php:236 includes/widgets.php:438 includes/widgets.php:647
+#: includes/widgets.php:818
+msgid "Title:"
+msgstr ""
+
+#: includes/widgets.php:88
+msgid ""
+"Use this widget to list your latest posts or posts from specific "
+"category/tag."
+msgstr ""
+
+#: includes/widgets.php:286 includes/widgets.php:488
+msgid ""
+"Use this widget to show your latest posts or posts from specific "
+"category/tag in grid."
+msgstr ""
+
+#: includes/widgets.php:692
+msgid ""
+"Use this widget to show your latest posts or posts from specific "
+"category/tag in slider."
+msgstr ""
+
+#: content/singular/attachment-video.php:42
+msgid "Video Info"
+msgstr ""
+
+#: includes/customize.php:335
+msgid "WebPage Layout"
+msgstr ""
+
+#: includes/customize.php:357
+msgid "Wide Layout"
+msgstr ""
