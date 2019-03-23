@@ -1,0 +1,40 @@
+//Set all the SASS variables for colors, fonts, layout etc.
+
+
+//Colors 
+//use $text-color-white for all our body text color
+
+$body-bg-color: black;
+$text-color-white: white;
+$footer-bg-color: #252525;
+$button-opacity-color: gray;
+$review-red-text: #f7504e;
+$review-green-text: #3cb878;
+$yellow-star: yellow;
+
+
+//Fonts 
+$body-font: 'Montserrat', sans-serif;
+$logo-font-size: 16px;
+$nav-font-size: 12px;
+$font-bold: bold;
+$title-font-size: 36px;
+$title-font-size-sm: 28px;
+$review-title-size: 30px;
+$review-title-size-sm: 24px;
+$review-font-size: 14px;
+$footer-title-text: 18px;
+$footer-title-weight: bold;
+$footer-subheader-text: 16px;
+$footer-body-text: 12px;
+$gallery-text-size: 24px;
+$gallery-text-size-sm: 18px;
+$star-font-size: 150%;
+$star-font-size-sm: 110%;
+$star-font-size-xsm: 90%;
+
+//Responsive
+$break-large: em(1100);
+$break-medium: em(800px);
+$break-small: em(500px);
+

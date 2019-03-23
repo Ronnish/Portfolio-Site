@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script
+			async
+			src="https://www.googletagmanager.com/gtag/js?id=UA-129716495-1"
+		></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag('js', new Date());
+
+			gtag('config', 'UA-129716495-1');
+		</script>
+
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>CineCafe</title>
+		<link rel="stylesheet" href="styles/styles.css" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Montserrat"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<span onclick="openNav()">&#9776;</span>
+
+		<!-- Desktop Nav -->
+		<header id="desktop-nav">
+			<nav>
+				<ul>
+					<li><a href="index.html" id="logo">CINECAFE</a></li>
+					<li><a href="index.html">NOW PLAYING</a></li>
+					<li><a href="index.html">COMING SOON</a></li>
+					<li><a href="signup.html">SIGN IN/REGISTER</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<!-- Mobile Nav -->
+		<div id="mobile-nav" class="overlay">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+				>&times;</a
+			>
+			<div class="overlay-content">
+				<a href="index.html">CINECAFE</a> <br />
+				<a href="index.html">Now Playing</a>
+				<a href="index.html">Coming Soon</a>
+				<a href="signup.html">Sign In/Register</a>
+			</div>
+		</div>
+		<main>
+			<div class="container">
+				<h1 class="review-title">Avengers Infinity War</h1>
+				<section class="trailer">
+					<video
+						id="movie-trailer"
+						width="900"
+						preload="auto"
+						autoplay="true"
+						controls
+						muted="muted"
+						src="videos/avengers.mp4"
+					></video>
+				</section>
+
+				<section class="review">
+					<p>Release date: April 27, 2018 (Canada)</p>
+					<p class="green-text">8.6/10 IMDb</p>
+					<p>2018 Action/Adventure 2h 40m</p>
+
+					<p>
+						Iron Man, Thor, the Hulk and the rest of the Avengers
+						unite to battle their most powerful enemy yet -- the
+						evil Thanos. On a mission to collect all six Infinity
+						Stones, Thanos plans to use the artifacts to inflict his
+						twisted will on reality. The fate of the planet and
+						existence itself has never been more uncertain as
+						everything the Avengers have fought for has led up to
+						this moment.
+					</p>
+					<br />
+
+					<p>Directors: Anthony Russo, Joe Russo</p>
+					<p>Box office: 2.047 billion USD</p>
+					<p>Writers: Christopher Markus, Stephen McFeely</p>
+					<p>Production Co: Marvel Studios</p>
+
+					<br />
+					<p class="red-text">
+						Intense and grande, Avengers: Infinity War is worthy of
+						great respect. Marvel heroes from all walks of life,
+						from Thor to Spiderman, get caught up in Thanos' scheme
+						to cull the universe of half of its life and no one is
+						safe. And still it manages to share a laugh, to make us
+						smile, and in end have the viewer feel great empathy for
+						the heroes' struggle.
+					</p>
+					<br />
+
+					<p class="red-text">
+						The villain is complex, the protagonists vulnerable. It
+						just looks great, it moves well with no boring parts,
+						and I don't know if it could stuff any more characters
+						in it. Utterly charming, I loved it.
+					</p>
+				</section>
+			</div>
+		</main>
+
+		<footer>
+			<div class="ft-logo-section">
+				<p class="footer-title-text">CINECAFE</p>
+				<p class="footer-body-text">
+					Stay updated on movies by signing up to become a member
+				</p>
+			</div>
+			<div class="ft-explore-section">
+				<p class="footer-subheader-text">Explore</p>
+				<p class="footer-body-text"><a href="index.html">Home</a></p>
+				<p class="footer-body-text">
+					<a href="index.html">Now Playing</a>
+				</p>
+				<p class="footer-body-text">
+					<a href="index.html">Coming Soon</a>
+				</p>
+				<p class="footer-body-text">
+					<a href="signup.html">Sign up/Register</a>
+				</p>
+			</div>
+			<div class="ft-visit-section">
+				<p class="footer-subheader-text">Visit</p>
+				<p class="footer-body-text">5566 Willingdon Ave</p>
+				<p class="footer-body-text">Burnaby, BC</p>
+				<p class="footer-body-text">V5G 2T6</p>
+				<p class="footer-body-text">604-555-5555</p>
+			</div>
+			<div class="ft-social-section">
+				<a class="icon" href="http://www.facebook.com"
+					><img src="images/facebook.png" alt="facebook"
+				/></a>
+				<a href="http://www.instagram.com"
+					><img src="images/instagram.png" alt="instagram"
+				/></a>
+				<a href="http://www.twitter.com"
+					><img src="images/twitter.png" alt="twitter"
+				/></a>
+				<a href="http://www.youtube.com"
+					><img src="images/youtube.png" alt="youtube"
+				/></a>
+			</div>
+		</footer>
+		<script src="scripts/scripts.js"></script>
+	</body>
+</html>

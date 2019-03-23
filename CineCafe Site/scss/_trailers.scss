@@ -1,0 +1,44 @@
+// Home Page Video Trailer Section
+
+
+.video-trailer{
+    position: relative;
+}
+
+.video-trailer video{
+    width: 100%;
+    height: auto; 
+    
+}
+
+.trailer-text{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid $text-color-white;
+    width: 275px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    
+}
+
+.trailer-text a{
+    text-decoration: none;
+    color: $text-color-white;
+
+}
+
+
+
+.container video{
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script
+			async
+			src="https://www.googletagmanager.com/gtag/js?id=UA-129716495-1"
+		></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag('js', new Date());
+
+			gtag('config', 'UA-129716495-1');
+		</script>
+
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>CineCafe</title>
+		<link rel="stylesheet" href="styles/styles.css" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Montserrat"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<span onclick="openNav()">&#9776;</span>
+
+		<!-- Desktop Nav -->
+		<header id="desktop-nav">
+			<nav>
+				<ul>
+					<li><a href="index.html" id="logo">CINECAFE</a></li>
+					<li><a href="index.html">NOW PLAYING</a></li>
+					<li><a href="index.html">COMING SOON</a></li>
+					<li><a href="signup.html">SIGN IN/REGISTER</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<!-- Mobile Nav -->
+		<div id="mobile-nav" class="overlay">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+				>&times;</a
+			>
+			<div class="overlay-content">
+				<a href="index.html">CINECAFE</a> <br />
+				<a href="index.html">Now Playing</a>
+				<a href="index.html">Coming Soon</a>
+				<a href="signup.html">Sign In/Register</a>
+			</div>
+		</div>
+
+		<main>
+			<div class="container">
+				<h1 class="review-title">Creed 2</h1>
+
+				<section class="trailer">
+					<video
+						id="movie-trailer"
+						width="900"
+						preload="auto"
+						autoplay="true"
+						controls
+						muted="muted"
+						src="videos/creed2.mp4"
+					></video>
+				</section>
+
+				<section class="review">
+					<p>Release date: November 21, 2018 (USA)</p>
+					<p>2018 Action/Adventure 2h 40m</p>
+
+					<p>
+						In 1985, Russian boxer Ivan Drago killed former U.S.
+						champion Apollo Creed in a tragic match that stunned the
+						world. Against the wishes of trainer Rocky Balboa,
+						Apollo's son and current champ Adonis Creed accepts a
+						challenge from Drago's son -- another dangerous fighter.
+						Under guidance from Rocky, Adonis trains for the
+						showdown of his life -- a date with destiny that soon
+						becomes his obsession. Now, Creed and Balboa must
+						confront their shared legacy as the past comes back to
+						haunt each man.
+					</p>
+					<br />
+
+					<p>Directors: Steven Caple Jr.</p>
+					<p>Writers: Sylvester Stallone</p>
+					<p>
+						Production companies: Metro-Goldwyn-Mayer, Warner Bros.,
+						New Line Cinema
+					</p>
+
+					<br />
+				</section>
+			</div>
+		</main>
+
+		<!-- Footer section -->
+		<footer>
+			<div class="ft-logo-section">
+				<p class="footer-title-text">CINECAFE</p>
+				<p class="footer-body-text">
+					Stay updated on movies by signing up to become a member
+				</p>
+			</div>
+			<div class="ft-explore-section">
+				<p class="footer-subheader-text">Explore</p>
+				<p class="footer-body-text"><a href="index.html">Home</a></p>
+				<p class="footer-body-text">
+					<a href="index.html">Now Playing</a>
+				</p>
+				<p class="footer-body-text">
+					<a href="index.html">Coming Soon</a>
+				</p>
+				<p class="footer-body-text">
+					<a href="signup.html">Sign up/Register</a>
+				</p>
+			</div>
+			<div class="ft-visit-section">
+				<p class="footer-subheader-text">Visit</p>
+				<p class="footer-body-text">5566 Willingdon Ave</p>
+				<p class="footer-body-text">Burnaby, BC</p>
+				<p class="footer-body-text">V5G 2T6</p>
+				<p class="footer-body-text">604-555-5555</p>
+			</div>
+			<div class="ft-social-section">
+				<a class="icon" href="http://www.facebook.com"
+					><img src="images/facebook.png" alt="facebook"
+				/></a>
+				<a href="http://www.instagram.com"
+					><img src="images/instagram.png" alt="instagram"
+				/></a>
+				<a href="http://www.twitter.com"
+					><img src="images/twitter.png" alt="twitter"
+				/></a>
+				<a href="http://www.youtube.com"
+					><img src="images/youtube.png" alt="youtube"
+				/></a>
+			</div>
+		</footer>
+		<script src="scripts/scripts.js"></script>
+	</body>
+</html>

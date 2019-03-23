@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script
+			async
+			src="https://www.googletagmanager.com/gtag/js?id=UA-129716495-1"
+		></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag('js', new Date());
+
+			gtag('config', 'UA-129716495-1');
+		</script>
+
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>CineCafe</title>
+		<link rel="stylesheet" href="styles/styles.css" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Montserrat"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<span onclick="openNav()">&#9776;</span>
+
+		<!-- Desktop Nav -->
+		<header id="desktop-nav">
+			<nav>
+				<ul>
+					<li><a href="index.html" id="logo">CINECAFE</a></li>
+					<li><a href="#now-playing">NOW PLAYING</a></li>
+					<li><a href="#coming-soon">COMING SOON</a></li>
+					<li><a href="signup.html">SIGN IN/REGISTER</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<!-- Mobile Nav -->
+		<div id="mobile-nav" class="overlay">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+				>&times;</a
+			>
+			<div class="overlay-content">
+				<a href="index.html">CINECAFE</a> <br />
+				<a href="#now-playing">Now Playing</a>
+				<a href="#coming-soon">Coming Soon</a>
+				<a href="signup.html">Sign In/Register</a>
+			</div>
+		</div>
+
+		<main>
+			<!-- Video Trailer section -->
+			<section class="video-trailer">
+				<video
+					id="movie"
+					preload="auto"
+					autoplay="true"
+					loop="loop"
+					muted="muted"
+					src="videos/trailer1.mp4"
+				></video>
+
+				<div class="trailer-text">
+					<a href="#now-playing">SEE WHAT'S PLAYING NOW</a>
+				</div>
+			</section>
+
+			<!-- Wrapper for 1200px -->
+
+			<div class="container">
+				<!-- Now Playing section -->
+				<section class="now-playing" id="now-playing">
+					<p class="section-title">Now Playing</p>
+
+					<div class="gallery-grid">
+						<div class="large">
+							<img src="images/avengers.png" alt="avengers" />
+							<div class="gallery-text">
+								<a href="avengers.html"
+									>AVENGERS: INFINITY WAR</a
+								>
+							</div>
+						</div>
+						<div class="small1">
+							<img
+								src="images/incredibles.png"
+								alt="incredibles 2"
+							/>
+							<div class="gallery-text">
+								<a href="incredibles.html">THE INCREDIBLES 2</a>
+							</div>
+						</div>
+						<div class="medium1">
+							<img
+								src="images/mission.png"
+								alt="mission impossible"
+							/>
+							<div class="gallery-text">
+								<a href="mission-impossible.html"
+									>MISSION IMPOSSIBLE: FALLOUT</a
+								>
+							</div>
+						</div>
+						<div class="medium2">
+							<img src="images/skyscraper.png" alt="skyscraper" />
+							<div class="gallery-text">
+								<a href="skyscraper.html">SKYSCRAPER</a>
+							</div>
+						</div>
+						<div class="small2">
+							<img src="images/searching.png" alt="searching" />
+							<div class="gallery-text">
+								<a href="Searching.html">SEARCHING</a>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<!-- Coming Soon section -->
+				<section class="coming-soon" id="coming-soon">
+					<p class="section-title">Coming Soon</p>
+
+					<div class="gallery-grid">
+						<div class="large">
+							<img
+								src="images/fantastic.png"
+								alt="fantastic beast"
+							/>
+							<div class="gallery-text">
+								<a href="Fantastic Beast.html"
+									>FANTASTIC BEAST</a
+								>
+							</div>
+						</div>
+						<div class="medium1">
+							<img src="images/robinhood.png" alt="robinhood" />
+							<div class="gallery-text">
+								<a href="robin-hood.html">ROBINHOOD</a>
+							</div>
+						</div>
+						<div class="small1">
+							<img src="images/creed2.png" alt="creed 2" />
+							<div class="gallery-text">
+								<a href="creed2.html">CREED 2</a>
+							</div>
+						</div>
+						<div class="small2">
+							<img src="images/aquaman.png" alt="aquaman" />
+							<div class="gallery-text">
+								<a href="Aquaman.html">AQUAMAN</a>
+							</div>
+						</div>
+						<div class="medium2">
+							<img
+								src="images/nutcracker.png"
+								alt="the nutcracker"
+							/>
+							<div class="gallery-text">
+								<a href="The Nutcracker.html">THE NUTCRACKER</a>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</main>
+
+		<!-- Footer section -->
+		<footer>
+			<div class="ft-logo-section">
+				<p class="footer-title-text">CINECAFE</p>
+				<p class="footer-body-text">
+					Stay updated on movies by signing up to become a member
+				</p>
+			</div>
+			<div class="ft-explore-section">
+				<p class="footer-subheader-text">Explore</p>
+				<p class="footer-body-text"><a href="#logo">Home</a></p>
+				<p class="footer-body-text">
+					<a href="#now-playing">Now Playing</a>
+				</p>
+				<p class="footer-body-text">
+					<a href="#coming-soon">Coming Soon</a>
+				</p>
+				<p class="footer-body-text">
+					<a href="signup.html">Sign up/Register</a>
+				</p>
+			</div>
+			<div class="ft-visit-section">
+				<p class="footer-subheader-text">Visit</p>
+				<p class="footer-body-text">5566 Willingdon Ave</p>
+				<p class="footer-body-text">Burnaby, BC</p>
+				<p class="footer-body-text">V5G 2T6</p>
+				<p class="footer-body-text">604-555-5555</p>
+			</div>
+			<div class="ft-social-section">
+				<a class="icon" href="http://www.facebook.com"
+					><img src="images/facebook.png" alt="facebook"
+				/></a>
+				<a href="http://www.instagram.com"
+					><img src="images/instagram.png" alt="instagram"
+				/></a>
+				<a href="http://www.twitter.com"
+					><img src="images/twitter.png" alt="twitter"
+				/></a>
+				<a href="http://www.youtube.com"
+					><img src="images/youtube.png" alt="youtube"
+				/></a>
+			</div>
+		</footer>
+
+		<script src="scripts/scripts.js"></script>
+	</body>
+</html>

@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script
+			async
+			src="https://www.googletagmanager.com/gtag/js?id=UA-129716495-1"
+		></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag('js', new Date());
+
+			gtag('config', 'UA-129716495-1');
+		</script>
+
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>CineCafe</title>
+		<link rel="stylesheet" href="styles/styles.css" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Montserrat"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<span onclick="openNav()">&#9776;</span>
+
+		<!-- Desktop Nav -->
+		<header id="desktop-nav">
+			<nav>
+				<ul>
+					<li><a href="index.html" id="logo">CINECAFE</a></li>
+					<li><a href="index.html">NOW PLAYING</a></li>
+					<li><a href="index.html">COMING SOON</a></li>
+					<li><a href="signup.html">SIGN IN/REGISTER</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<!-- Mobile Nav -->
+		<div id="mobile-nav" class="overlay">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+				>&times;</a
+			>
+			<div class="overlay-content">
+				<a href="index.html">CINECAFE</a> <br />
+				<a href="index.html">Now Playing</a>
+				<a href="index.html">Coming Soon</a>
+				<a href="signup.html">Sign In/Register</a>
+			</div>
+		</div>
+
+		<main>
+			<section class="sign-up">
+				<p class="section-title">REGISTER TODAY</p>
+				<br />
+				<img src="images/signup-banner.png" alt="movie banner" />
+
+				<form
+					action=""
+					method="post"
+					name="form-submit"
+					class="form-submit"
+					id="form-submit"
+				>
+					<!-- Name -->
+					<div class="register-map">
+						<div class="register-form">
+							<div class="form-field">
+								<div class="left-label">
+									<label for="name">Name</label>
+								</div>
+								<div class="right-input">
+									<input type="name" name="name" id="name" />
+								</div>
+							</div>
+							<!-- Email -->
+							<div class="form-field">
+								<div class="left-label">
+									<label for="email">Email address</label>
+								</div>
+								<div class="right-input">
+									<input
+										type="email"
+										name="email"
+										id="email"
+									/>
+								</div>
+							</div>
+
+							<!-- Username -->
+							<div class="form-field">
+								<div class="left-label">
+									<label for="username">Username</label>
+								</div>
+								<div class="right-input">
+									<input
+										type="username"
+										name="username"
+										id="username"
+									/>
+								</div>
+							</div>
+
+							<!-- Password -->
+							<div class="form-field">
+								<div class="left-label">
+									<label for="password">Password</label>
+								</div>
+								<div class="right-input">
+									<input
+										type="password"
+										name="password"
+										id="password"
+									/>
+								</div>
+							</div>
+
+							<!-- Password Confirmation -->
+							<div class="form-field">
+								<div class="left-label">
+									<label for="password-confirmation" required
+										>Confirm Password</label
+									>
+								</div>
+								<div class="right-input">
+									<input
+										type="password"
+										name="password-confirmation"
+										id="password-confirmation"
+									/>
+								</div>
+							</div>
+							<br />
+							<!-- Country -->
+							<div class="form-field">
+								<div class="left-label">
+									<label for="country">Country</label>
+								</div>
+								<div class="right-input">
+									<select name="country" id="country">
+										<option value="">USA</option>
+										<option value="">Canada</option>
+										<option value="">Mauritius</option>
+										<option value="">China</option>
+										<option value="">Mexico</option>
+										<option value="">Japan</option>
+										<option value="">Brazil</option>
+										<option value="">Germany</option>
+										<option value="">Korea</option>
+										<option value="">Croatia</option>
+										<option value="">Russia</option>
+										<option value="">Belgium</option>
+										<option value="">Australia</option>
+									</select>
+								</div>
+							</div>
+							<br />
+
+							<textarea rows="5" cols="50" placeholder="Comments">
+							</textarea>
+							<br />
+
+							<br /><input
+								type="radio"
+								id="male"
+								value="male"
+								name="sex"
+							/>
+							<label for="male">Male</label> <br />
+
+							<input
+								type="radio"
+								id="female"
+								value="female"
+								name="sex"
+							/>
+							<label for="female">Female</label> <br />
+							<br /><input
+								type="checkbox"
+								id="Accept"
+								value="Accept"
+							/>
+							<label for="Accept"
+								>I have read the terms and conditions</label
+							>
+							<br />
+							<br />
+							<button class="submit">SIGN UP</button>
+						</div>
+						<div class="map">
+							<img src="images/map.png" alt="vancouver map" />
+						</div>
+					</div>
+				</form>
+			</section>
+		</main>
+
+		<!-- Footer section -->
+		<footer>
+			<div class="ft-logo-section">
+				<p class="footer-title-text">CINECAFE</p>
+				<p class="footer-body-text">
+					Stay updated on movies by signing up to become a member
+				</p>
+			</div>
+			<div class="ft-explore-section">
+				<p class="footer-subheader-text">Explore</p>
+				<p class="footer-body-text"><a href="index.html">Home</a></p>
+				<p class="footer-body-text">
+					<a href="index.html">Now Playing</a>
+				</p>
+				<p class="footer-body-text">
+					<a href="index.html">Coming Soon</a>
+				</p>
+				<p class="footer-body-text">
+					<a href="signup.html">Sign up/Register</a>
+				</p>
+			</div>
+			<div class="ft-visit-section">
+				<p class="footer-subheader-text">Visit</p>
+				<p class="footer-body-text">5566 Willingdon Ave</p>
+				<p class="footer-body-text">Burnaby, BC</p>
+				<p class="footer-body-text">V5G 2T6</p>
+				<p class="footer-body-text">604-555-5555</p>
+			</div>
+			<div class="ft-social-section">
+				<a class="icon" href="http://www.facebook.com"
+					><img src="images/facebook.png" alt="facebook"
+				/></a>
+				<a href="http://www.instagram.com"
+					><img src="images/instagram.png" alt="instagram"
+				/></a>
+				<a href="http://www.twitter.com"
+					><img src="images/twitter.png" alt="twitter"
+				/></a>
+				<a href="http://www.youtube.com"
+					><img src="images/youtube.png" alt="youtube"
+				/></a>
+			</div>
+		</footer>
+		<script src="scripts/scripts.js"></script>
+	</body>
+</html>

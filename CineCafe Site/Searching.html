@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script
+			async
+			src="https://www.googletagmanager.com/gtag/js?id=UA-129716495-1"
+		></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag('js', new Date());
+
+			gtag('config', 'UA-129716495-1');
+		</script>
+
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>CineCafe</title>
+		<link rel="stylesheet" href="styles/styles.css" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Montserrat"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<span onclick="openNav()">&#9776;</span>
+
+		<!-- Desktop Nav -->
+		<header id="desktop-nav">
+			<nav>
+				<ul>
+					<li><a href="index.html" id="logo">CINECAFE</a></li>
+					<li><a href="index.html">NOW PLAYING</a></li>
+					<li><a href="index.html">COMING SOON</a></li>
+					<li><a href="signup.html">SIGN IN/REGISTER</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<!-- Mobile Nav -->
+		<div id="mobile-nav" class="overlay">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+				>&times;</a
+			>
+			<div class="overlay-content">
+				<a href="index.html">CINECAFE</a> <br />
+				<a href="index.html">Now Playing</a>
+				<a href="index.html">Coming Soon</a>
+				<a href="signup.html">Sign In/Register</a>
+			</div>
+		</div>
+		<main>
+			<div class="container">
+				<h1 class="review-title">Searching</h1>
+
+				<section class="trailer">
+					<video
+						id="movie-trailer"
+						width="900"
+						preload="auto"
+						autoplay="true"
+						controls
+						muted="muted"
+						src="videos/Searching.mp4"
+					></video>
+				</section>
+
+				<section class="review">
+					<p>
+						Universal Pictures | Release Date: August 24, 2018
+						(Indonesia)
+					</p>
+					<p class="green-text">7.8/10 IMDb</p>
+					<p>2018 ‧ Drama/Thriller ‧ 1h 49m</p>
+
+					<p>
+						David Kim becomes desperate when his 16-year-old
+						daughter Margot disappears and an immediate police
+						investigation leads nowhere. He soon decides to search
+						the one place that no one else has -- Margot's laptop.
+						Hoping to trace her digital footprints, David contacts
+						her friends and looks at photos and videos for any
+						possible clues to her whereabouts.
+					</p>
+					<br />
+
+					<p>Director: Aneesh Chaganty</p>
+					<p>Box office: 68.6 million USD</p>
+					<p>
+						Executive producers: Ana Liza Muravina, Mariya
+						Zatulovskaya, Igor Tsay
+					</p>
+					<p>
+						Production companies: Universal Pictures, Legendary
+						Entertainment
+					</p>
+
+					<br />
+					<p class="red-text">
+						Searching is a technical marvel with a beating heart at
+						its core, which makes all the difference. &nbsp; &nbsp;
+						&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+					</p>
+
+					<h5 id="authors">Peter Travers<br />Rolling Stone</h5>
+					<br />
+
+					<p class="red-text">
+						Perhaps inspired by the success of 2014's Unfriended,
+						this mystery ventures in fresh, new directions while
+						being superbly constructed, emotionally satisfying, and
+						culturally relevant.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+						&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+					</p>
+
+					<h5 id="authors">
+						Jeffrey M. Anderson<br />Common Sense Media
+					</h5>
+
+					<p class="red-text">
+						With Searching, director Aneesh Chaganty has elevated a
+						standard missing-person drama into something quite
+						extraordinary on the strength of his inventive
+						storytelling.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+						&nbsp; &nbsp; &nbsp; &nbsp; Rajeev Masand/News 18
+					</p>
+
+					<h5 id="authors">Rajeev Masand<br />News 18</h5>
+				</section>
+			</div>
+		</main>
+
+		<!-- Footer section -->
+		<footer>
+			<div class="ft-logo-section">
+				<p class="footer-title-text">CINECAFE</p>
+				<p class="footer-body-text">
+					Stay updated on movies by signing up to become a member
+				</p>
+			</div>
+			<div class="ft-explore-section">
+				<p class="footer-subheader-text">Explore</p>
+				<p class="footer-body-text"><a href="index.html">Home</a></p>
+				<p class="footer-body-text">
+					<a href="index.html">Now Playing</a>
+				</p>
+				<p class="footer-body-text">
+					<a href="index.html">Coming Soon</a>
+				</p>
+				<p class="footer-body-text">
+					<a href="signup.html">Sign up/Register</a>
+				</p>
+			</div>
+			<div class="ft-visit-section">
+				<p class="footer-subheader-text">Visit</p>
+				<p class="footer-body-text">5566 Willingdon Ave</p>
+				<p class="footer-body-text">Burnaby, BC</p>
+				<p class="footer-body-text">V5G 2T6</p>
+				<p class="footer-body-text">604-555-5555</p>
+			</div>
+			<div class="ft-social-section">
+				<a class="icon" href="http://www.facebook.com"
+					><img src="images/facebook.png" alt="facebook"
+				/></a>
+				<a href="http://www.instagram.com"
+					><img src="images/instagram.png" alt="instagram"
+				/></a>
+				<a href="http://www.twitter.com"
+					><img src="images/twitter.png" alt="twitter"
+				/></a>
+				<a href="http://www.youtube.com"
+					><img src="images/youtube.png" alt="youtube"
+				/></a>
+			</div>
+		</footer>
+		<script src="scripts/scripts.js"></script>
+	</body>
+</html>
