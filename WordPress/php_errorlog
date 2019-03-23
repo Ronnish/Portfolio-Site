@@ -1,0 +1,2 @@
+[18-Feb-2019 08:18:30 UTC] PHP Fatal error:  Call to undefined function mindset_post_navigation() in /home/rbahadoor/public_html/Project/wp-content/themes/thm/single-student.php on line 17
+[18-Feb-2019 08:21:53 UTC] PHP Fatal error:  Call to undefined function mindset_post_navigation() in /home/rbahadoor/public_html/Project/wp-content/themes/thm/single.php on line 17
