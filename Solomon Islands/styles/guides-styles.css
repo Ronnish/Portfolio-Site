@@ -86,6 +86,20 @@ nav a#pull {
 .banner img {
 	display: block;
 }
+
+.banner {
+    height: 500px;
+	padding: 610px;
+    background-image: url("../images/It's yours.jpeg");
+    background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+    display: flex;
+    align-items: center;
+	justify-content: center;
+	
+}
+
 .page-wrap {
 	width: 1000px;
 	margin: 0 auto;
