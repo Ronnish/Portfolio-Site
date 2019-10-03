@@ -35,8 +35,8 @@ body {
 
 .banner {
     height: 300px;
-	padding: 610px;
-    background-image: url("../images/It's yours.jpeg");
+	padding: 350px;
+	background-image: url("../images/solomon.jpg");
     background-position: center;
 	background-size: cover;
 	background-attachment: fixed;
