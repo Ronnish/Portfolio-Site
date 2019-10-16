@@ -50,7 +50,7 @@ footer {
 }
 
 nav {
-	background-color: #fff;
+	background-color: black;
 }
 
 nav ul {
@@ -58,7 +58,7 @@ nav ul {
 	padding-bottom: 0;
 	list-style: none;
 	display: flex;
-	background-color: white;
+	background-color: rgb(0, 0, 0);
 }
 
 nav li {

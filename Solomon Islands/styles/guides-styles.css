@@ -37,7 +37,7 @@ body {
 }
 
 nav {
-	background-color: ffff;
+	background-color: black;
 	height: 52px;
 }
 
@@ -65,7 +65,7 @@ nav li {
 
 
 nav a {
-	color: rgb(41, 172, 172);
+	color: rgb(255, 255, 255);
 	text-decoration: none;
 	text-align: center;
 	line-height: 52px;
@@ -89,8 +89,8 @@ nav a#pull {
 
 .banner {
     height: 500px;
-	padding: 610px;
-    background-image: url("../images/It's yours.jpeg");
+	padding: 310px;
+    background-image: url("../images/Guides.jpg");
     background-position: center;
 	background-size: cover;
 	background-attachment: fixed;
