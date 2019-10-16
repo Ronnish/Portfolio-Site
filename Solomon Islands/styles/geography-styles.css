@@ -2,11 +2,12 @@
 
 
 body {
-  background-image: url("../images/Plane.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  font-family: 'Concert One', cursive;	
+  background-image: url('../images/Plane.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+		
 }
 
 header, main, footer {
@@ -52,24 +53,6 @@ header, main, footer {
   list-style-type: circle;
   
 }
-
-.banner{
-	z-index: -1;
-}
-
-.banner {
-    height: 300px;
-	padding: 350px;
-	background-image: url("../images/solomon.jpeg");
-    background-position: center;
-	background-size: cover;
-	background-attachment: fixed;
-    display: flex;
-    align-items: center;
-	justify-content: center;
-	
-}
-  
 
 nav {
 	background-color: rgb(0, 0, 0);
