@@ -35,8 +35,8 @@ body {
 
 .banner {
     height: 500px;
-	padding: 350px;
-	background-image: url("../images/Solomon.png");
+	padding: 310px;
+	background-image: url("../images/Solomon.jpg");
     background-position: center;
 	background-size: cover;
 	background-attachment: fixed;
