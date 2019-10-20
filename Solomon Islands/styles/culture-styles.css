@@ -102,6 +102,56 @@ nav a#pull {
 	margin-top: 60px; 
 }
 
+
+
+
+/* Gallery */
+
+main {
+	position: relative;	
+}
+
+.slides {
+	margin: 30px 30px;	
+}
+
+.btn_prev,
+.btn_next {
+	cursor: pointer;
+	width: 0;
+	height: 0;	
+}
+
+.slide_controls {
+	width: 74px;
+	overflow: auto;
+	margin: 0 auto 30px;
+}
+
+.btn_prev {
+	float: left;
+	border-top: 23px solid transparent;
+	border-right: 23px solid #000000;
+	border-bottom: 23px solid transparent;	
+}
+
+.btn_next {
+	float: right;
+	border-top: 23px solid transparent;
+	border-left: 23px solid #000000;
+	border-bottom: 23px solid transparent;
+}
+
+.wrapper img {
+	margin-left: 3px;
+	max-width: 100%;
+	height: auto;	
+}
+ 
+
+/* Gallery end page */
+
+
 .teasers {
 	padding: 40px 0;
 	display: flex;
