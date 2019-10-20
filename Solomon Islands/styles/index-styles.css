@@ -15,48 +15,6 @@ body {
 	min-height: 100vh;
 }
 
-
-.wrapper {
-	width: 95%;
-	margin: auto;
-	background-color: ffff;
-}
-
-.wrapper h1 {
-	margin-top: 0;
-	padding-left: 30%;
-	color: rgb(0, 2, 1);
-}
-
-.banner{
-	z-index: -1;
-}
-
-.banner {
-    height: 500px;
-	padding: 350px;
-	background-image: url("../images/Solomon.jpg");
-    background-position: center;
-	background-size: cover;
-	background-attachment: fixed;
-    display: flex;
-    align-items: center;
-	justify-content: center;
-	
-}
-
-.box img {
-	width: 150px;
-}
-
-.box p {
-	background-color: rgb(0, 0, 0);
-	color: rgb(21, 212, 203);
-	width: 500px;
-	margin: auto;
-	padding: 20px 20px;
-}
-
 nav {
 	background-color: black;
 	height: 52px;
@@ -76,16 +34,6 @@ nav li {
 	text-align: center;
 	
 }
-
-.clearfix:before,
-.clearfix:after {
-  content: " ";
-  display: table;
-}
-.clearfix:after {
-  clear: both;
-}
-
 
 nav a {
 	color: rgb(255, 255, 255);
@@ -107,16 +55,52 @@ nav a#pull {
   display: none;
 }
 
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
 
+
+.banner{
+	z-index: -1;
+}
+
+.banner {
+    height: 500px;
+	padding: 350px;
+	background-image: url("../images/Solomon.jpg");
+    background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+    display: flex;
+    align-items: center;
+	justify-content: center;
+	
+}
 
 .banner img {
 	display: block;
 }
+
+
+
+.box img {
+	width: 150px;
+}
+
+
+/* Home Page Description */
+
 .page-wrap {
 	width: 1000px;
 	margin: 0 auto;
 	padding: 0 30px;
 }
+
 .hero {
 	width: 80%;
 	margin: 0 auto;
@@ -129,6 +113,23 @@ nav a#pull {
 	font-size: 2.5em;
 	margin-bottom: 0.4em;
 }
+
+
+
+/*Footer Page*/
+
+footer {
+	padding: 40px 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.credits {
+	font-size: 80%;
+	padding-left: 400px;
+}
+
+/*social-icons shadow*/
 
 .teasers {
 	padding: 40px 0;
@@ -158,17 +159,6 @@ nav a#pull {
 
 .teasers img {
 	display: block;
-}
-
-footer {
-	padding: 40px 0;
-	display: flex;
-	justify-content: space-between;
-}
-
-.credits {
-	font-size: 80%;
-	padding-left: 400px;
 }
 
 .social-icons {

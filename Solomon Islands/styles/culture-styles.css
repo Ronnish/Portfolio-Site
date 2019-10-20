@@ -17,7 +17,7 @@ footer {
 }
 
 .wrapper {
-	width: 1200px;
+	width: 1000px;
 	margin: 0 auto;
 	background-color: rgb(255, 255, 255);
 	color: rgb(0, 0, 0);
@@ -94,6 +94,12 @@ text-decoration: underline;
 
 nav a#pull {
 	display: none;
+}
+
+.letter img {
+	width: 900px;
+	margin-left: 50px;
+	margin-top: 60px; 
 }
 
 .teasers {
@@ -268,12 +274,6 @@ footer p {
 	font-size: 80%;
 	padding-left: 650px;
 	color: rgb(0, 0, 0);
-}
-
-.letter img {
-	width: 500px;
-	margin-left: 250px;
-	margin-top: 60px; 
 }
 
 @media only screen and (max-width: 660px) {
