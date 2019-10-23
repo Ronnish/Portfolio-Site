@@ -17,6 +17,10 @@ body {
 nav {
 	background-color: black;
 	height: 52px;
+	position: fixed;
+	top: 0; 
+    width: 100%; 
+	
 }
 
 nav ul {
