@@ -16,6 +16,8 @@ footer {
 	padding: 0 30px;
 }
 
+/* Main Page - Text */
+
 .wrapper {
 	width: 1000px;
 	margin: 0 auto;
@@ -49,6 +51,35 @@ footer {
 	text-align: center;
 	list-style-type: circle;
 }
+
+
+/* Main Page - Img */
+
+.wrapper img {
+	margin-left: 3px;
+	max-width: 100%;
+	height: auto;	
+}
+
+.letter img {
+	width: 900px;
+	margin-left: 50px;
+	margin-top: 60px; 
+}
+
+.box img {
+	width: 250px;
+	padding-left: 375px;
+}
+
+.box-language img {
+	width: 150px;
+	padding-left: 420px;
+}
+
+
+
+/* Nav Menu */
 
 nav {
 	background-color: black;
@@ -96,12 +127,65 @@ nav a#pull {
 	display: none;
 }
 
-.letter img {
-	width: 900px;
-	margin-left: 50px;
-	margin-top: 60px; 
+/* Mobile Nav Menu */
+
+@media only screen and (max-width: 660px) {
+	nav {
+	  border-bottom: 0;
+	  height: auto;
+	}
+  
+	nav ul {
+	  display: none;
+	  height: auto;
+	}
+	nav a#pull {
+	  display: block;
+	  background-color: #ffffff;
+	  width: 100%;
+	  position: relative;
+	}
+	nav a#pull:after {
+	  content: "";
+	  width: 30px;
+	  height: 30px;
+	  display: inline-block;
+	  position: absolute;
+	  right: 15px;
+	  top: 10px;
+	}
 }
 
+	menu,
+ ol,
+ ul {
+     margin: 1em 0;
+ }
+ 
+ dd {
+     margin: 0 0 0 40px;
+ }
+ 
+ /*
+  * Addresses paddings set differently in IE6/7.
+  */
+ 
+ menu,
+ ol,
+ ul {
+     padding: 0 0 0 40px;
+ }
+ 
+ /*
+  * Corrects list images handled incorrectly in IE7.
+  */
+ 
+ nav ul,
+ nav ol {
+     list-style: none;
+     list-style-image: none;
+ }
+ 
 
 
 
@@ -142,15 +226,9 @@ main {
 	border-bottom: 23px solid transparent;
 }
 
-.wrapper img {
-	margin-left: 3px;
-	max-width: 100%;
-	height: auto;	
-}
  
 
-/* Gallery end page */
-
+/* Social Icons */
 
 .teasers {
 	padding: 40px 0;
@@ -326,62 +404,6 @@ footer p {
 	color: rgb(0, 0, 0);
 }
 
-@media only screen and (max-width: 660px) {
-	nav {
-	  border-bottom: 0;
-	  height: auto;
-	}
-  
-	nav ul {
-	  display: none;
-	  height: auto;
-	}
-	nav a#pull {
-	  display: block;
-	  background-color: #ffffff;
-	  width: 100%;
-	  position: relative;
-	}
-	nav a#pull:after {
-	  content: "";
-	  width: 30px;
-	  height: 30px;
-	  display: inline-block;
-	  position: absolute;
-	  right: 15px;
-	  top: 10px;
-	}
-}
 
-	menu,
- ol,
- ul {
-     margin: 1em 0;
- }
- 
- dd {
-     margin: 0 0 0 40px;
- }
- 
- /*
-  * Addresses paddings set differently in IE6/7.
-  */
- 
- menu,
- ol,
- ul {
-     padding: 0 0 0 40px;
- }
- 
- /*
-  * Corrects list images handled incorrectly in IE7.
-  */
- 
- nav ul,
- nav ol {
-     list-style: none;
-     list-style-image: none;
- }
- 
 
 
