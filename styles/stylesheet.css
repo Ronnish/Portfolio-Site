@@ -43,7 +43,7 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto 1fr auto;
-    min-height: 100vh;
+    min-height: 125vh;
 }
 
 /* Header Layout */
@@ -162,7 +162,7 @@ nav a:active {
     padding: 30px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 50px;
+    grid-gap: 150px;
 }
 
 .work {
@@ -174,7 +174,7 @@ nav a:active {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-size: 21px;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .work-subtitle-PRS {
@@ -184,6 +184,32 @@ nav a:active {
     font-size: 21px;
     margin-top: 55px;
 }
+
+
+
+/* Works Crossfaded Images */
+
+.work {
+    position: relative;
+    height:281px;
+    width:450px;
+    margin:0 auto;
+  }
+  
+  .work img {
+    position: absolute;
+    left:0;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .work img.top:hover {
+    opacity:0;
+  }
+
+  
 
 /* PRS Items Layout - Plans */
 
@@ -483,9 +509,14 @@ ul.social-icons {
     transition: .5s;
     background-color: #322f30;
 }
+
 .fa-linkedin:hover {
     background-color: #98a0a3;
 }
+
+
+
+
 
 
 
